@@ -129,15 +129,15 @@
     /* CONTACT */
 .contact-container {
     background-image: url('../asset/Header-bg-image.jpg');
-    height: 110vh;
+    height: 100vh;
 }
 
 .contact-left-container {
-    height: 70vh;
+    height: 40vh;
 }
 
 .contact-right-container {
-    height: 80vh;
+    height: 40vh;
 }
 
 }
