@@ -62,7 +62,6 @@ h2 {
 /* Header styling */
 #header {
     z-index: 999;
-   
 }
 
 .header-container {
@@ -70,6 +69,7 @@ h2 {
     height: 100vh;
     background-image: url('../asset/header5.jpg');
     background-size: cover;
+    background-position: center;
 }
 
 .overlay {
