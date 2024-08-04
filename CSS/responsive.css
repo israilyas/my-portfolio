@@ -1,41 +1,19 @@
 /* Extra LARGE Screens */
 @media (min-width:992px) {
-
-    /*SKILLS*/
-    .skills-container {
-        height: 120vh;
-    }
     /* Projects*/
     .overlay-card .common-heading {
         font-size: 20px;
-    }
-
-    .contact-container {
-        height: 130vh !important;
-    }
-
-    .contact-left-container {
-        height: 80vh;
-    }
-
-    .contact-right-container {
-        height: 80vh;
     }
 }
 
 /* LARGE Screens */
 @media (max-width:992px) {
 
-    /*SKILLS*/
-    .skills-container {
-        height: 110vh;
-    }
-
-    /*Projects*/
+    /* Projects
     .projects-button {
         width: 120px;
         height: 40px;
-    }
+    } */
 
     .overlay-card .card-caption {
         font-size: 8px;
@@ -56,54 +34,25 @@
         padding-top: 10px !important;
     }
 
-    .contact-container {
-        height: 130vh !important;
-    }
-
-    .contact-left-container {
-        height: 80vh;
-    }
-
-    .contact-right-container {
-        height: 80vh;
-    }
-
     .contact-left-container .contact-info {
-        font-size: 16px !important;
+        font-size: 20px !important;
     }
 }
 
 /* Medium Screens */
 @media (max-width:768px) {
-    .header-container {
-        height: 40vh;
-    }
     .social-media-hide {
         display: none;
         text-align: left;
     }
 
-    /*SKILLS*/
-    .skills-container {
-        height: 70vh;
-    }
-
     /* CONTACT */
-    .contact-container {
-        height: 200vh !important;
-        
-    }
-
     .contact-left-container .contact-info {
         font-size: 17px !important;
     }
 
     .contact-left-container {
-        height: 40vh;
         margin-bottom: 50px;
-    }
-    .contact-right-container {
-        height: 40vh;
     }
 }
 
@@ -113,9 +62,6 @@
         font-size: 2rem;
     }
     /*SKILLS*/
-    .skills-container {
-        height: 120vh;
-    }
     .skills-container  skill-content{
         font-size: 13px !important;
         text-align: justify !important;
@@ -126,18 +72,5 @@
     .progress{
         height: 6px !important;
     }
-    /* CONTACT */
-.contact-container {
-    background-image: url('../asset/Header-bg-image.jpg');
-    height: 100vh;
-}
-
-.contact-left-container {
-    height:45vh;
-}
-
-.contact-right-container {
-    height: 45vh;
-}
-
+ 
 }
