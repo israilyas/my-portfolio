@@ -7,6 +7,7 @@
     <title>ISRA ILYAS</title>
     <!-- Own CSS  -->
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/button.css">
     <link rel="stylesheet" href="CSS/responsive.css">
     <!-- Bootstrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,42 +16,17 @@
 <body>
 
     <header id="header" class="position-sticky top-0 left-0 bg-light">
-        <nav class="navbar navbar-expand-md navbar-light px-5">
-            <div class="container-fluid row">
-                <!-- DropDown Starts  -->
-                <div class="dropdown d-md-none bg-dark">
-                    <button class="btn " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        <ion-icon name="menu-outline" style="font-size: 25px; color: white; margin: 2px;"></ion-icon>
-                    </button>
-                    <ul class="dropdown-menu mt-2  p-5 text-center" aria-labelledby="dropdownMenuButton1">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#header-container">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <button class="common-Button col-lg-6 rounded btn-light"
-                                style="width: 120px; height: 40px;">Get In Touch</button>
-                        </li>-
-                    </ul>
-                </div> <!-- DropDown ends  -->
-
-                <div class="collapse navbar-collapse col-lg-6" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="container">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-normal">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#header-container">Home</a>
                         </li>
@@ -70,12 +46,16 @@
                             <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
-                    <button class="common-Button col-lg-6">Get In
-                        Touch</button>
-                </div>
-            </div><!--container-fluid ends-->
-        </nav>
-    </header>
+                <form>
+                    <button class="button-85" role="button"><a
+                        href="#about"
+                        target="_blank">GET IN TOUCH</a></button>
+                </form>
+            </div>
+        </div> <!-- Container Ends -->
+        </div> <!--container-fluid ends-->
+    </nav>
+</header>
 
     <div class="container-fluid  header-container common-container-fluid" id="header-container">
         <!--container-fluid starts-->
@@ -174,7 +154,8 @@
                             <div class="skills"><!--skills starts-->
 
                                 <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span class="skill-h">HTML</span>
+                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                            class="skill-h">HTML</span>
                                         <span class="skill-h">90%</span>
                                     </p>
                                     <div class="progress">
@@ -184,7 +165,8 @@
                                 </div>
 
                                 <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span class="skill-h">CSS</span>
+                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                            class="skill-h">CSS</span>
                                         <span class="skill-h">90%</span>
                                     </p>
                                     <div class="progress">
@@ -224,7 +206,8 @@
 
 
                                 <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span class="skill-h">PYTHON</span>
+                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                            class="skill-h">PYTHON</span>
                                         <span class="skill-h">70%</span>
                                     </p>
                                     <div class="progress">
@@ -234,7 +217,8 @@
                                 </div>
 
                                 <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span class="skill-h">SEO</span>
+                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                            class="skill-h">SEO</span>
                                         <span class="skill-h">50%</span>
                                     </p>
                                     <div class="progress">
@@ -254,7 +238,8 @@
                                 web interfaces using HTML, CSS, and JavaScript, while my SEO skills ensure that websites
                                 are optimized for search engines and user experience.
                             </p>
-                            <button class="common-Button mb-5">Download CV</button>
+                            <button class="button-85" role="button"><a href="#"
+                                target="_blank">DOWNLOAD CV</a></button>
                         </div>
                     </div> <!--row ends-->
                 </div> <!-- container ends -->
@@ -268,113 +253,150 @@
 
                 <h1 class="common-heading">MY PRJECTS</h1>
 
-                    <div class="project-btn d-flex flex-row align-items-center justify-content-center text-light">
+                <div class="project-btn d-flex flex-row align-items-center justify-content-center text-light mb-5 mx-3">
 
-                        <div class="projects-button  mb-5 mx-2 text-center pt-3" style="cursor: pointer; font-size: 13px;" data-project-btn-num="1">Websites</div>
+                    <button class="button-85" role="button"><a
+                        href="#"
+                        target="_blank">WEB PROJECTS</a></button>
+                    <button class="button-85" role="button"><a
+                        href="#"
+                        target="_blank">PYTHON PROJECTS</a></button>
 
-                        <div class="projects-button  mb-5 mx-2 text-center pt-3" style="cursor: pointer; font-size: 13px;" data-project-btn-num="1">Python Projects</div>
+                </div><!--project-btn ends-->
 
-                    </div><!--project-btn ends-->
+                <div class="row row-cols-md-3 row-cols-1 gy-3"><!--ROW starts-->
 
-                    <div class="row row-cols-md-3 row-cols-1 gy-3"><!--ROW starts-->
-
-                        <div class="project-card col projects-button--1">
-                            <img src="asset/projects/netflix.jpg" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/netflix.jpg" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">NETFLIX CLONE</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a Netflix clone using HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to different devices.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a Netflix clone
+                                using HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to
+                                different devices.</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK" target="_blank"><button class="common-Button" >Github</button></a>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK"
+                                        target="_blank">Github</a></button>
 
-                                <a href="https://israilyas.github.io/Netflix-Clone-SMIT-TASK/" target="_blank"><button class="common-Button">Demo</button></a>
-                                
-                            </div>
+                                <button class="button-85" role="button"><a
+                                        href="https://israilyas.github.io/Netflix-Clone-SMIT-TASK/"
+                                        target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1">
-                            <img src="asset/projects/OLX.png" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/OLX.png" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">OLX CLONE</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a OLX clone using HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to different devices.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a OLX clone using
+                                HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to
+                                different devices.</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK" target="_blank"><button class="common-Button" >Github</button></a>
 
-                                <a href="https://israilyas.github.io/OLX-clone/" target="_blank"><button class="common-Button">Demo</button></a>
-                            </div>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK"
+                                        target="_blank">Github</a></button>
+
+                                <button class="button-85" role="button"><a href="https://israilyas.github.io/OLX-clone/"
+                                        target="_blank">Demo</a></button>
+
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1">
-                            <img src="asset/projects/rex-D.png" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/rex-D.png" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">REX-D CLONE</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a Rex-D clone using HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to different devices.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 13px;">I created a Rex-D clone
+                                using HTML, CSS, and Bootstrap, featuring a responsive design that adapts seamlessly to
+                                different devices.</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK" target="_blank"><button class="common-Button" >Github</button></a>
 
-                                <a href="https://israilyas.github.io/REX-D-Clone/" target="_blank"><button class="common-Button">Demo</button></a>
-                            </div>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/Netflix-Clone-SMIT-TASK"
+                                        target="_blank">Github</a></button>
+
+                                <button class="button-85" role="button"><a
+                                        href="https://israilyas.github.io/REX-D-Clone/"
+                                        target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1" >
-                            <img src="asset/projects/online-learning-platform.png" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/online-learning-platform.png" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">LEARNING PLATFORM</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 12px;">I developed an online learning platform using HTML, CSS, and Bootstrap, featuring a responsive design and an intuitive layout for easy navigation.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 12px;">I developed an online
+                                learning platform using HTML, CSS, and Bootstrap, featuring a responsive design and an
+                                intuitive layout for easy navigation.</p>
                             <div class="d-flex mb-3">
-                                <a href="https://github.com/israilyas/ONLINE-LEARNING-PLATFORM-SMIT-TASK" target="_blank"><button class="common-Button" >Github</button></a>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/ONLINE-LEARNING-PLATFORM-SMIT-TASK"
+                                        target="_blank">Github</a></button>
 
-                                <a href="https://israilyas.github.io/ONLINE-LEARNING-PLATFORM-SMIT-TASK/" target="_blank"><button class="common-Button">Demo</button></a>
-                                
-                            </div>
+                                <button class="button-85" role="button"><a
+                                        href="https://israilyas.github.io/ONLINE-LEARNING-PLATFORM-SMIT-TASK/"
+                                        target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1" >
-                            <img src="asset/projects/periodic table.jpg" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/periodic table.jpg" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">PERIODIC TABLE</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Explore the colorful arrangement of elements in this detailed periodic table project</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Explore the colorful
+                                arrangement of elements in this detailed periodic table project</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/smit-tasks/blob/master/assignment-07-ISRA-ILYAS-Roll-no-228174-batch-11-/index.html" target="_blank"><button class="common-Button" >Github</button></a>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/smit-tasks/blob/master/assignment-07-ISRA-ILYAS-Roll-no-228174-batch-11-/index.html"
+                                        target="_blank">Github</a></button>
 
-                                <a href="#" target="_blank"><button class="common-Button">Visit hosting</button></a>
-                                
-                            </div>
+                                <button class="button-85" role="button"><a href="#" target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1" >
-                            <img src="asset/projects/tech Hub.jpg" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/tech Hub.jpg" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">INNOVATIVE TECH HUB</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Designed Tech-Solutions using HTML and CSS to deliver a sleek, user-friendly platform showcasing diverse tech services.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Designed Tech-Solutions
+                                using HTML and CSS to deliver a sleek, user-friendly platform showcasing diverse tech
+                                services.</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/INNOVATIVE-TECH-HUB-website" target="_blank"><button class="common-Button" >Github</button></a>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/INNOVATIVE-TECH-HUB-website"
+                                        target="_blank">Github</a></button>
 
-                                <a href="#" target="_blank"><button class="common-Button">Visit hosting</button></a>
-                                
-                            </div>
+                                <button class="button-85" role="button"><a href="#" target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="project-card col projects-button--1" >
-                            <img src="asset/projects/voice scripter.png" alt class="img-thumbnail">
-                            <div class="overlay-card rounded d-flex flex-column">
+                    <div class="project-card col projects-button--1">
+                        <img src="asset/projects/voice scripter.png" alt class="img-thumbnail">
+                        <div class="overlay-card rounded d-flex flex-column">
                             <p class="common-heading text-light">VOICE SCRIPTER</p>
-                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Developed a versatile GUI application using Tkinter for seamless text-to-speech and speech-to-text conversions with customizable voice and speed options.</p>
+                            <p class="text-light px-2 card-caption" style="font-size: 12px;">Developed a versatile GUI
+                                application using Tkinter for seamless text-to-speech and speech-to-text conversions
+                                with customizable voice and speed options.</p>
                             <div class="d-flex">
-                                <a href="https://github.com/israilyas/Voice_Scripter" target="_blank"><button class="common-Button" >Github</button></a>
+                                <button class="button-85" role="button"><a
+                                        href="https://github.com/israilyas/Voice_Scripter"
+                                        target="_blank">Github</a></button>
 
-                                <a href="https://israilyas.github.io/Voice_Scripter/" target="_blank"><button class="common-Button">Demo</button></a>
-                                
-                            </div>
+                                <button class="button-85" role="button"><a
+                                        href="https://israilyas.github.io/Voice_Scripter/"
+                                        target="_blank">Demo</a></button>
                             </div>
                         </div>
+                    </div>
 
-                    </div><!--ROW ends-->
+                </div><!--ROW ends-->
 
             </div><!-- container ends -->
         </div><!-- container-fluid ends -->
@@ -439,9 +461,7 @@
 
                                 <textarea name="msg" id="msg" placeholder="Your message" style="width: 88%;"
                                     class="p-2 rounded my-2" required></textarea>
-
-                                <button class="common-Button my-2" type="submit">Send Message</button>
-
+                                <button class="button-30" role="button">Send Message</button>
                             </form>
 
                         </div><!--contact-right-container end-->
@@ -473,6 +493,70 @@
 
     <footer>
         <div class="container-fluid bg-dark text-light p-5 text-center">
+            <div class="row">
+
+                <div class="col-md-4 col-12">
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                    <h4 class="footer-name-heading">ISRA ILYAS</h4>
+                    <p class="mt-3">Available for freelance projects. Feel free to reach out!</p>
+                </div>
+                </div>
+
+                <div class="col-md-2 col-12 text-center">
+                    <ul class="footer-list">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#header-container">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 col-12 text-center">
+                    <ul class="footer-list">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#resume">resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 col-12 d-flex flex-column justify-content-center align-items-center">
+                    <div class="d-flex">
+                        <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/" target="_blank"><ion-icon
+                                class="linkedin" name="logo-linkedin"
+                                style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+                        <a href="https://github.com/israilyas" target="_blank"><ion-icon class="github"
+                                name="logo-github" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+                        <a href="https://github.com/israilyas" target="_blank"><ion-icon name="mail-outline"
+                                class="email" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+
+                        <ion-icon class="facebook" name="logo-facebook"
+                            style="font-size: 25px; color: white; margin: 2px;"></ion-icon>
+
+                        <a href="https://wa.me/+9203186936988" target="_blank"><ion-icon class="whatsapp"
+                                name="logo-whatsapp" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+                    </div>
+
+                    <button class="button-85" role="button"><a href="#contact"
+                            target="_blank">Send Message</a></button>
+
+                </div>
+
+            </div>
+            <hr>
             <p> &copyAll rights reserved</p>
         </div>
     </footer>
@@ -480,7 +564,7 @@
 
     <!-- BOOTSTRAP JS  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- IONICNS  -->
+    <!-- IONICONS  -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>

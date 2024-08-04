@@ -15,7 +15,7 @@ body {
 
 :root {
     --links-Fw: 600;
-    --navlink-color: black;
+    --navlink-color: white;
     --h1-color: white;
     /* --btn-color: hsla(35, 87%, 49%, 1); */
     --btn-color: rgb(35, 22, 150);
@@ -266,7 +266,7 @@ h2 {
     width: 93.8%;
     overflow: hidden;
     background-color: black;
-    opacity: 0.7;
+    opacity: 1;
     transform: translateY(100%);
     transition: all .5s ease-in-out;
     display: flex;
@@ -317,4 +317,20 @@ h2 {
 .contact-right-container button{
     background-color: white !important;
     color: black;
+}
+
+/* << FOOTER STYLING >> */
+.footer-list li{
+list-style: none;
+}
+.footer-list li a{
+    color: white;
+}
+.footer-name-heading{
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 40px 0; */
+    margin: 0;
+    font-family: "Bodoni Moda SC", serif;
 }
