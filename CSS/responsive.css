@@ -58,6 +58,12 @@
     .common-heading{
         font-size: 2rem;
     }
+    .resume-heading{
+        font-size: 1.5rem;
+    }
+    .resume-second-heading{
+        font-size: 1.2rem;
+    }
     /*SKILLS*/
     .skills-container  skill-content{
         font-size: 13px !important;
