@@ -38,6 +38,9 @@
     .header-section-content h1 {
         font-size: 2.5rem;
     }
+    .header-section-content h2 {
+        font-size: 2rem;
+    }
     .social-media-hide {
         display: none;
         text-align: left;
@@ -55,6 +58,9 @@
 
 /* SMALL Screens */
 @media (max-width:576px) {
+    .header-section-content h2 {
+        font-size: 1.7rem;
+    }
     .common-heading{
         font-size: 2rem;
     }
