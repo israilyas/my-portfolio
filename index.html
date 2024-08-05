@@ -11,65 +11,67 @@
     <link rel="stylesheet" href="CSS/responsive.css">
     <!-- Bootstrap CSS  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
 
     <header id="header" class="position-sticky top-0 left-0 bg-light">
-    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
-        <div class="container-fluid">
-            <div class="container">
-            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-normal">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#header-container">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#skills">Skills</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#resume">Resume</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projects">Projects</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                <form>
-                    <button class="button-85" role="button"><a
-                        href="#about"
-                        target="_blank">GET IN TOUCH</a></button>
-                </form>
-            </div>
-        </div> <!-- Container Ends -->
-        </div> <!--container-fluid ends-->
-    </nav>
-</header>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+            <div class="container-fluid">
+                <div class="container">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-normal">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#header-container">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#skills">Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#resume">Resume</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                        <form>
+                            <button class="button-85" role="button"><a href="#about" target="_blank">GET IN
+                                    TOUCH</a></button>
+                        </form>
+                    </div>
+                </div> <!-- Container Ends -->
+            </div> <!--container-fluid ends-->
+        </nav>
+    </header>
 
-    <div class="container-fluid header-container bg-dark" id="header-container">
-        <!--container-fluid starts-->
-        <div class="overlay">
-            <div class="content">
-                <h1 class="fw-bolder display-4">ISRA ILYAS</h1>
-                <h2 class="fw-light mt-2">I am a Web-Developer</h2>
-            </div>
-        </div> <!-- Overlay Ends -->
+    <div class="container-fluid header-container" id="header-container"><!--container-fluid starts-->
+
+        <div class="header-section-content">
+            <h1>ISRA ILYAS</h1>
+            <h24>I am a Web-Developer</h2>
+        </div>
+
     </div><!--container-fluid ends-->
 
     <!-- ABOUT SECTION  -->
     <section id="about">
-        <div class="container-fluid bg-dark py-5 my-2">
+        <div class="container-fluid bg-dark py-5">
             <!-- container starts  -->
             <div class="container">
                 <h1 class="common-heading">About Me</h1>
@@ -142,111 +144,264 @@
     <!-- My SKills  -->
 
     <section id="skills">
-        <div class="container-fluid bg-dark skills-container py-5 my-2">
-                <!-- container starts  -->
-                <div class="container mt-5">
-                    <h1 class="common-heading">MY SKILSS</h1>
+        <div class="container-fluid bg-dark skills-container py-5">
+            <!-- container starts  -->
+            <div class="container mt-5">
+                <h1 class="common-heading">MY SKILSS</h1>
 
-                    <div class="row">
-                        <div class="col-md-5 col-10  mx-auto">
+                <div class="row">
+                    <div class="col-md-5 col-10  mx-auto">
 
-                            <div class="skills"><!--skills starts-->
+                        <div class="skills"><!--skills starts-->
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
-                                            class="skill-h">HTML</span>
-                                        <span class="skill-h">90%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar html" role="progressbar" style="width: 90%;"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                        class="skill-h">HTML</span>
+                                    <span class="skill-h">90%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar html" role="progressbar" style="width: 90%;"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
-                                            class="skill-h">CSS</span>
-                                        <span class="skill-h">90%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar css" role="progressbar" style="width: 90%"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                        class="skill-h">CSS</span>
+                                    <span class="skill-h">90%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar css" role="progressbar" style="width: 90%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light">
-                                        <span class="skill-h">JAVASCRIPT</span> <span class="skill-h">70%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar js" role="progressbar" style="width: 70%"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light">
+                                    <span class="skill-h">JAVASCRIPT</span> <span class="skill-h">70%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar js" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
-                            </div><!--skills ends-->
+                        </div><!--skills ends-->
 
-                        </div> <!--Column 1 ends-->
+                    </div> <!--Column 1 ends-->
 
-                        <div class="col-md-5 col-10 mx-auto"><!--Column 2 starts-->
+                    <div class="col-md-5 col-10 mx-auto"><!--Column 2 starts-->
 
-                            <div class="skills"><!--skills starts-->
+                        <div class="skills"><!--skills starts-->
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light">
-                                        <span class="skill-h">BOOTSTRAP</span>
-                                        <span class="skill-h">80%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar bootstap" role="progressbar" style="width: 80%"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light">
+                                    <span class="skill-h">BOOTSTRAP</span>
+                                    <span class="skill-h">80%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar bootstap" role="progressbar" style="width: 80%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
-                                            class="skill-h">PYTHON</span>
-                                        <span class="skill-h">70%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar python" role="progressbar" style="width: 70%"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                        class="skill-h">PYTHON</span>
+                                    <span class="skill-h">70%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar python" role="progressbar" style="width: 70%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
-                                <div class="progress-container">
-                                    <p class="d-flex justify-content-between fw-bolder text-light"><span
-                                            class="skill-h">SEO</span>
-                                        <span class="skill-h">50%</span>
-                                    </p>
-                                    <div class="progress">
-                                        <div class="progress-bar python" role="progressbar" style="width: 50%"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
+                            <div class="progress-container">
+                                <p class="d-flex justify-content-between fw-bolder text-light"><span
+                                        class="skill-h">SEO</span>
+                                    <span class="skill-h">50%</span>
+                                </p>
+                                <div class="progress">
+                                    <div class="progress-bar python" role="progressbar" style="width: 50%"
+                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                                 </div>
+                            </div>
 
 
-                            </div><!--skills ends-->
+                        </div><!--skills ends-->
 
-                        </div> <!--Column 2 ends-->
+                    </div> <!--Column 2 ends-->
 
-                        <div class="col-10 text-center mx-auto mt-5 text-white fs-6 mb-5 skill-content">
-                            <p>
-                                I excel in creating clean, efficient code and building responsive, visually appealing
-                                web interfaces using HTML, CSS, and JavaScript, while my SEO skills ensure that websites
-                                are optimized for search engines and user experience.
-                            </p>
-                            <button class="button-85" role="button"><a href="#"
-                                target="_blank">DOWNLOAD CV</a></button>
-                        </div>
-                    </div> <!--row ends-->
-                </div> <!-- container ends -->
+                    <div class="col-10 text-center mx-auto mt-5 text-white fs-6 mb-5 skill-content">
+                        <p>
+                            I excel in creating clean, efficient code and building responsive, visually appealing
+                            web interfaces using HTML, CSS, and JavaScript, while my SEO skills ensure that websites
+                            are optimized for search engines and user experience.
+                        </p>
+                        <button class="button-85" role="button"><a href="#" target="_blank">DOWNLOAD CV</a></button>
+                    </div>
+                </div> <!--row ends-->
+            </div> <!-- container ends -->
         </div> <!-- container-fluid ends -->
     </section> <!-- skills sections ends-->
 
+    <section id="resume">
+        <div class="container-fluid bg-dark py-5 ">
+            <div class="container">
+                <h1 class="common-heading">RESUME</h1>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="asset/myimage3.jpeg" class="img-thumbnail rounded"
+                            style="border-radius: 20px !important;">
+                    </div>
+                    <div class="col-md-10">
+                        <div class="resume-heading">ISRA ILYAS</div>
+                        <p class="fs-5 resume-secondary-color">Frontend Developer | Computer Science Undergraduate</p>
+                        <p class="about text-light">
+                            I am a passionate Frontend Developer and a Computer Science undergraduate at Federal Urdu
+                            University of Arts, Science and Technology.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="contact-information">
+
+                    <div class="resume-personalDetails row text-light mt-5">
+                        <p class="col-md-6 d-flex align-items-center">
+                            <ion-icon name="mail" class="mx-3 icon"></ion-icon>
+                            <span>israqureshi138@gmail.com</span>
+                        </p>
+                        <p class="col-md-6 d-flex align-items-center">
+                            <ion-icon name="call" class="mx-3 icon"></ion-icon>
+                            <span>+9203268942669</span>
+                        </p>
+                        <p class="col-md-6 d-flex align-items-center">
+                            <ion-icon name="locate" class="mx-3 icon"></ion-icon>
+                            <span>Karachi, Pakistan</span>
+                        </p>
+                        <p class="col-md-6 d-flex align-items-center">
+                            <ion-icon name="logo-linkedin" class="mx-3 icon"></ion-icon>
+                            <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/" target="_blank"
+                                style="text-decoration: none; color: white;">https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/</a>
+                        </p>
+                    </div> <!--  << resume-personalDetails >> -->
+
+                </div> <!-- << contact-information  ends>> -->
+
+                <div class="rsume-professional-detail text-light">
+                    <div class="resume-heading">Professional Summary</div>
+                    <p>Motivated and innovative Computer Science student with a solid grasp of web technologies and a
+                        proven ability to deliver high-quality projects. Experienced in building responsive web
+                        applications using HTML, CSS, and Bootstrap. Demonstrated ability to learn quickly and adapt to
+                        new challenges. Aspiring to start a career in front-end development and contribute to a creative
+                        team.</p>
+
+                </div>
+
+                <div class="resume-projects row text-light">
+                    <h1 class="resume-heading">PROJECTS</h1>
+
+                    <div class="col-12" style="text-align: justify;"> <!--project starts-->
+                        <div class="d-flex justify-content-between">
+                            <h4 class="resume-second-heading">OLX Homepage Clone</h4>
+                            <span class="resume-secondary-color">4 August</span>
+                        </div>
+                        <p>Built a detailed and responsive clone of the OLX home page, demonstrating proficiency in web
+                            design and front-end development. This project replicates the look and feel of the OLX
+                            platform, providing a clean and user-friendly interface.</p>
+                        <p>Technologies: HTML, CSS, Bootstrap</p>
+                        <p>
+                            Features:
+                        <ul>
+                            <li>
+                                Responsive Design: Ensured the layout adapts seamlessly to various screen sizes,
+                                enhancing user experience across mobile, tablet, and desktop devices.
+                            </li>
+                            <li>
+                                Accurate UI Replication: Achieved a precise duplication of the OLX home page design,
+                                maintaining consistency in layout, colors, and typography.
+                            </li>
+                        </ul>
+                        </p>
+                        <div>
+                            <a href="https://github.com/israilyas/OLX-clone" class="resume-project-link"
+                                target="_blank">Github Link <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                            <a href="https://israilyas.github.io/OLX-clone/" class="resume-project-link"
+                                target="_blank">Demo Link <i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        </div>
+                    </div> <!--Project Ends-->
+
+                    <a href="#projects" class="text-center resume-project-link my-3">See more Projects</a>
+                </div> <!--resume-projects ends-->
+
+                <div class="row  text-light">
+                    <h1 class="resume-heading">EDUCATION</h1>
+                    <h4 class="resume-second-heading">Bachelor of Science in Computer Science (BSCS)</h4>
+                    <h5 class="resume-secondary-color">Federal Urdu University of Art Science and Technology Karachi
+                        (FUUAST)</h5>
+                    <h5 class="resume-secondary-color">Expected Graduation : 2027</h5>
+                    <p class="mt-3">Currently pursuing a comprehensive curriculum focused on computer science
+                        principles, programming, software development, and web technologies. <br>
+                        Engaged in hands-on projects and practical learning experiences to enhance technical skills and
+                        problem-solving abilities.
+                    </p>
+                </div>
+
+                <div class="resume-skills text-light">
+                    <h1 class="resume-heading">SKILLS</h1>
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <li> <span class="fw-bold">Frontend Development:</span> HTML, CSS, Bootstrap, JavaScript
+                            </li>
+                            <li> <span class="fw-bold">Programming Languages:</span> Python, C</li>
+                            <li> <span class="fw-bold">Tools & Technologies:</span> Git</li>
+                            <li> <span class="fw-bold">Soft Skills:</span> Teamwork, Communication, Problem-Solving</li>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-certifications text-light">
+
+                    <h1 class="resume-heading">
+                        Certifications & Professional Development
+                    </h1>
+
+
+                    <div class="row">
+                        <h4 class="resume-second-heading">Python Programming Internship</h4>
+                        <h5 class="resume-secondary-color mb-4">CodSoft – March 2024</h5>
+                        <img src="asset/certificates/pythonInternship.png" class="img-thumbnail col-md-4">
+                        <ul class="col-md-8 my-5">
+                            <li class="ms-3">Gained extensive hands-on experience in Python programming by working on
+                                diverse projects.</li>
+                            <li class="ms-3">Developed a captivating Rock Paper Scissors game, a robust password
+                                generator, and a simple calculator.</li>
+                            <li class="ms-3">Created intuitive graphical user interfaces (GUIs) for the projects,
+                                enhancing user interaction and usability.</li>
+                            <li class="ms-3">Overcame various challenges and honed problem-solving skills through
+                                practical application and project development.</li>
+                            <li class="ms-3">Benefited from an immersive learning environment that prepared me for a
+                                successful career in software development.</li>
+                        </ul>
+                    </div>
+
+                    <h4 class="resume-second-heading mt-3">Webinar Attendance Certificates:</h4>
+                    <ull>
+                        <li></li>
+                    </ull>
+
+
+                </div> <!-- << resume-certifications ends >> -->
+
+            </div>
+
+        </div>
+    </section>
+
     <section id="projects">
-        <div class="container-fluid bg-dark py-5 my-2">
+        <div class="container-fluid bg-dark py-5 ">
             <div class="container">
 
                 <h1 class="common-heading">MY PRJECTS</h1>
@@ -390,73 +545,80 @@
     </section>
 
     <section id="contact">
-        <div class="container-fluid bg-dark">
-                <div class="container my-2">
-                    <h1 class="common-heading">Let's Work Together</h1>
+        <div class="container-fluid bg-dark py-5">
+            <div class="container">
+                <h1 class="common-heading">Let's Work Together</h1>
 
-                    <div class="row"> <!--ROW STARTS-->
-                        <div class="col-md-5  col-10 mx-auto text-light pt-5 ps-5">
+                <div class="row"> <!--ROW STARTS-->
+                    <div class="col-md-5 col-10 mx-auto text-light contact-left-container contact-content">
 
-                            <div class="d-flex flex-column">
-                                <p class="d-flex flex-row align-items-center"><ion-icon name="call-outline"></ion-icon>
-                                    <span class="ps-3">Call Me :</span>
-                                </p>
-                                <p class="fw-bold fs-4 contact-info">+9203268942669</p>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <p class="d-flex flex-row align-items-center justify-content-center"><ion-icon
+                                    name="call-outline"></ion-icon>
+                                <span class="ps-3">Call Me :</span>
+                            </p>
+                            <p class="fw-bold fs-4 contact-info">+9203268942669</p>
+                        </div>
+
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <p class="d-flex flex-row align-items-center justify-content-center"><ion-icon
+                                    name="mail-outline"></ion-icon>
+                                <span class="ps-3">Mail Me :</span>
+                            </p>
+                            <p class="fw-bold fs-4 contact-info">israqureshi@gmail.com</p>
+                        </div>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <p class="d-flex flex-row align-items-center justify-content-center"><ion-icon
+                                    name="checkmark-done-circle-outline"></ion-icon> <span class="ps-3">Follow Me
+                                    :</span></p>
+                            <div class="f-flex flex-row align-items-center justify-content-center">
+                                <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/"
+                                    target="_blank"><ion-icon class="linkedin" name="logo-linkedin"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+                                <a href="https://github.com/israilyas" target="_blank"><ion-icon class="github"
+                                        name="logo-github"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+                                <a href="https://github.com/israilyas" target="_blank"><ion-icon name="mail-outline"
+                                        class="email"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+
+                                <a href="https://wa.me/+9203186936988" target="_blank"><ion-icon class="whatsapp"
+                                        name="logo-whatsapp"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
                             </div>
+                        </div>
+                    </div><!--contact-left-container end-->
 
-                            <div class="d-flex flex-column">
-                                <p class="d-flex flex-row align-items-center"><ion-icon name="mail-outline"></ion-icon>
-                                    <span class="ps-3">Mail Me :</span>
-                                </p>
-                                <p class="fw-bold fs-4 contact-info">israqureshi@gmail.com</p>
-                            </div>
-                            <div class="d-flex flex-column">
-                                <p class="d-flex flex-row align-items-center"><ion-icon
-                                        name="checkmark-done-circle-outline"></ion-icon> <span class="ps-3">Follow Me
-                                        :</span></p>
-                                <div class="f-flex flex-row">
-                                    <ion-icon class="linkedin fs-4 contact-info" name="logo-linkedin"
-                                        style=" color: white; margin: 2px;"></ion-icon>
-                                    <ion-icon class="github fs-4 contact-info" name="logo-github"
-                                        style=" color: white; margin: 2px;"></ion-icon>
-                                    <ion-icon class="facebook fs-4 contact-info" name="logo-facebook"
-                                        style=" color: white; margin: 2px;"></ion-icon>
-                                    <ion-icon class="whatsapp fs-4 contact-info" name="logo-whatsapp"
-                                        style=" color: white; margin: 2px;"></ion-icon>
-                                    <ion-icon class="instagram fs-4 contact-info" name="logo-instagram"
-                                        style=" color: white; margin: 2px;"></ion-icon>
-                                </div>
-                            </div>
-                        </div><!--contact-left-container end-->
+                    <div class="col-md-5 col-10 contact-right-container contact-content">
 
-                        <div class="col-md-5 mx-auto  text-center col-12">
+                        <form class="my-5" action="https://api.web3forms.com/submit" method="POST">
 
-                            <form class="my-5" action="https://api.web3forms.com/submit" method="POST">
+                            <input type="hidden" name="access_key" value="01b38f38-698a-4426-83f0-73a456bee18f">
 
-                                <input type="hidden" name="access_key" value="01b38f38-698a-4426-83f0-73a456bee18f">
+                            <input type="text" name="name" placeholder="Your Name" style="width: 40%;"
+                                class="p-3 rounded my-2" required>
 
-                                <input type="text" name="name" placeholder="Your Name" style="width: 43%;"
-                                    class="p-3 rounded my-2" required>
+                            <input type="email" name="email" placeholder="Your Email" style="width: 40%;"
+                                class="p-3 rounded my-2" required>
 
-                                <input type="email" name="email" placeholder="Your Email" style="width: 43%; "
-                                    class="p-3 rounded my-2" required>
+                            <input type="text" name="subject" placeholder="Subject" style="width: 80%;"
+                                class="p-3 rounded my-2" required>
 
-                                <input type="text" name="subject" placeholder="Subject" style="width: 88%;"
-                                    class="p-3 rounded my-2" required>
+                            <textarea name="msg" id="msg" placeholder="Your message" style="width: 80%;"
+                                class="p-2 rounded my-2" required></textarea>
+                            <button class="button-30" role="button">Send Message</button>
+                        </form>
 
-                                <textarea name="msg" id="msg" placeholder="Your message" style="width: 88%;"
-                                    class="p-2 rounded my-2" required></textarea>
-                                <button class="button-30" role="button">Send Message</button>
-                            </form>
+                    </div><!--contact-right-container end-->
+                </div><!--ROW Ends-->
 
-                        </div><!--contact-right-container end-->
-                    </div><!--ROW Ends-->
-
-                </div><!-- container ends -->
+            </div><!-- container ends -->
         </div><!-- container-fluid ends -->
     </section>
 
-    <div class="social-media f-flex flex-column social-media-hide">
+    <!-- <div class="social-media f-flex flex-column social-media-hide">
 
         <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/" target="_blank"><ion-icon class="linkedin"
                 name="logo-linkedin" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
@@ -473,7 +635,7 @@
         <a href="https://wa.me/+9203186936988" target="_blank"><ion-icon class="whatsapp" name="logo-whatsapp"
                 style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
 
-    </div>
+    </div> -->
 
     <footer>
         <div class="container-fluid bg-dark text-light p-5 text-center">
@@ -481,9 +643,9 @@
 
                 <div class="col-md-4 col-12">
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                    <h4 class="footer-name-heading">ISRA ILYAS</h4>
-                    <p class="mt-3">Available for freelance projects. Feel free to reach out!</p>
-                </div>
+                        <h4 class="footer-name-heading">ISRA ILYAS</h4>
+                        <p class="mt-3">Available for freelance projects. Feel free to reach out!</p>
+                    </div>
                 </div>
 
                 <div class="col-md-2 col-12 text-start">
@@ -514,28 +676,35 @@
                     </ul>
                 </div>
 
-                <div class="col-md-4 col-12 d-flex flex-column justify-content-start align-items-start">
-                    <div class="d-flex">
-                        <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/" target="_blank"><ion-icon
-                                class="linkedin" name="logo-linkedin"
-                                style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+                <div class="col-md-4 col-10 d-flex flex-column justify-content-start align-items-start">
+                    <ul>
+                        <li style="list-style: none;">
+                            <div class="d-flex">
+                                <a href="https://www.linkedin.com/in/isra-ilyas-qureshi-a88670264/"
+                                    target="_blank"><ion-icon class="linkedin" name="logo-linkedin"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
 
-                        <a href="https://github.com/israilyas" target="_blank"><ion-icon class="github"
-                                name="logo-github" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+                                <a href="https://github.com/israilyas" target="_blank"><ion-icon class="github"
+                                        name="logo-github"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
 
-                        <a href="https://github.com/israilyas" target="_blank"><ion-icon name="mail-outline"
-                                class="email" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+                                <a href="https://github.com/israilyas" target="_blank"><ion-icon name="mail-outline"
+                                        class="email"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
 
 
-                        <ion-icon class="facebook" name="logo-facebook"
-                            style="font-size: 25px; color: white; margin: 2px;"></ion-icon>
+                                <ion-icon class="facebook" name="logo-facebook"
+                                    style="font-size: 25px; color: white; margin: 2px;"></ion-icon>
 
-                        <a href="https://wa.me/+9203186936988" target="_blank"><ion-icon class="whatsapp"
-                                name="logo-whatsapp" style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
-                    </div>
+                                <a href="https://wa.me/+9203186936988" target="_blank"><ion-icon class="whatsapp"
+                                        name="logo-whatsapp"
+                                        style="font-size: 25px; color: white; margin: 2px;"></ion-icon></a>
+                            </div>
 
-                    <button class="button-85" role="button"><a href="#contact"
-                            target="_blank">Send Message</a></button>
+                            <button class="button-85 mt-3" role="button"><a href="#contact" target="_blank">Send
+                                    Message</a></button>
+                        </li>
+                    </ul>
                 </div>
 
             </div>
