@@ -81,4 +81,7 @@
     .progress{
         height: 6px !important;
     }
+    .resume-certifications img{
+        height: 200px;
+    }
 }

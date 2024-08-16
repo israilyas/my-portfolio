@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
+    color: white;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif !important;
     letter-spacing: 0.5px;
@@ -22,8 +24,8 @@ body {
     --primary-color: rgb(183, 34, 34);
     --secondary-color: rgb(58, 23, 156);
     --nav-link-hover: white;
-    --resume-heading-color:rgb(35, 128, 250);
-    --resume-secondary-color:rgb(144, 173, 248);
+    --resume-heading-color:rgb(66, 64, 236);
+    --resume-secondary-color:rgb(208, 136, 136);
 }
 
 .common-heading {
@@ -242,34 +244,43 @@ nav ul li a.nav-link:hover {
 /* RESUME */
 .resume-heading{
     font-weight: bolder;
-    font-size: 2.3rem;
-    text-align: start;
-    margin: 15px 0;
-    color: var(--resume-heading-color);
-    text-shadow: 3px 3px 3px black;
+    font-size: 2rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* padding: 40px 0; */
+    color: white;
+    font-family: "Bodoni Moda SC", serif;
+    text-shadow: 3px 3px 5px black;
 }
 .resume-second-heading{
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 1.6rem;
-    text-align: start;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: var(--resume-secondary-color);
-    text-shadow: 2px 2px 2px black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    /* padding: 40px 0; */
+    color: white;
+    font-family: "Bodoni Moda SC", serif;
+    text-shadow: 3px 3px 5px black;
 }
 .resume-project-link{
     text-decoration: none;
-    color: var(--resume-secondary-color);
     margin-right: 10px;
+    color: white;
 }
-.resume-secondary-color{
-    color: var(--resume-secondary-color);
+.resume-projects a:hover{
+    color: white;
+}
+.more-projects:hover{
+color: white;
 }
 .icon {
     width: 30px !important;
     height: 30px !important;
 }
 
+.resume-certifications img{
+    height: 300px;
+}
 
 /* PROJECTS */
 .projects-button {
